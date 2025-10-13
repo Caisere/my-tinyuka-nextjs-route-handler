@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTodo } from "@/app/lib/data-service";
-import UpdateTodoForm from "@/app/components/updatetodoform";
+import UpdateTodoForm from "@/app/components/update-todo-form";
 
 interface EditTodoPageProps {
     params: Promise<{ id: string }>;
